@@ -32,13 +32,13 @@ options:
       - The password to use when connecting to your secret server
 
   organziation:
-    required: true
+    required: false
     default: ""
     description:
       - The organization ID to sue when authenticating, typically not set
 
   domain:
-    required: true
+    required: false
     default: ""
     description:
       - The authentication domain to use when connecting to Secret Server
